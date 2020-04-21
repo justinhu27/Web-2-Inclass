@@ -39,6 +39,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/footer/Logo.png": {
+		"ft": 32768,
+		"iS": 4837,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/Logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/footer/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -49,114 +60,81 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/section-1/hero.jpg": {
-		"ft": 16384,
-		"iS": 337746,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-2/hero.png": {
+	"/deploy/img/section-1/Surfboards.png": {
 		"ft": 32768,
-		"iS": 21385,
+		"iS": 763106,
 		"oA": 0,
-		"oAP": "/deploy/img/section-2/hero.png",
+		"oAP": "/deploy/img/section-1/Surfboards.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-3/grid-bot.jpg": {
-		"ft": 16384,
-		"iS": 185897,
-		"jF": 0,
+	"/deploy/img/section-2/Surfer Girl.png": {
+		"ft": 32768,
+		"iS": 618329,
 		"oA": 0,
-		"oAP": "/deploy/img/section-3/grid-bot.jpg",
+		"oAP": "/deploy/img/section-2/Surfer Girl.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-4/hero.jpg": {
-		"ft": 16384,
-		"iS": 189024,
-		"jF": 0,
+	"/deploy/img/section-3/Surfing.png": {
+		"ft": 32768,
+		"iS": 1472709,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/hero.jpg",
+		"oAP": "/deploy/img/section-3/Surfing.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-1.jpg": {
-		"ft": 16384,
-		"iS": 173696,
-		"jF": 0,
+	"/deploy/img/section-4/Looking.png": {
+		"ft": 32768,
+		"iS": 244427,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-1.jpg",
+		"oAP": "/deploy/img/section-4/Looking.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-2.jpg": {
-		"ft": 16384,
-		"iS": 47796,
-		"jF": 0,
+	"/deploy/img/section-4/Sitting.png": {
+		"ft": 32768,
+		"iS": 624701,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-2.jpg",
+		"oAP": "/deploy/img/section-4/Sitting.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-3.jpg": {
-		"ft": 16384,
-		"iS": 100411,
-		"jF": 0,
+	"/deploy/img/section-4/Sunset.png": {
+		"ft": 32768,
+		"iS": 289265,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-3.jpg",
+		"oAP": "/deploy/img/section-4/Sunset.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/gallery-4.jpg": {
-		"ft": 16384,
-		"iS": 170027,
-		"jF": 0,
+	"/deploy/img/section-5/Hang Ten.png": {
+		"ft": 32768,
+		"iS": 132783,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-4.jpg",
+		"oAP": "/deploy/img/section-5/Hang Ten.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-5.jpg": {
-		"ft": 16384,
-		"iS": 70439,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/deploy/img/section-5/gallery-6.jpg": {
-		"ft": 16384,
-		"iS": 115782,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/gallery-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/index.html": {
