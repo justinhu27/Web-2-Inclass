@@ -4,194 +4,39 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "662035E2-99CE-4199-839D-B78453BA68A4"
+		"uuidString": "7F3C03CB-AC6F-4FF8-9022-44180186EC32"
 		}
 	],
 "creatorBuild": "32001",
 "files": {
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/deploy/img/footer/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/footer/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/footer/Logo.png": {
-		"ft": 32768,
-		"iS": 4837,
-		"oA": 0,
-		"oAP": "/deploy/img/footer/Logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/footer/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/section-1/Surfboards.png": {
-		"ft": 32768,
-		"iS": 763106,
-		"oA": 0,
-		"oAP": "/deploy/img/section-1/Surfboards.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-2/Surfer-Girl.png": {
-		"ft": 32768,
-		"iS": 618329,
-		"oA": 0,
-		"oAP": "/deploy/img/section-2/Surfer-Girl.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-3/Surfing.png": {
-		"ft": 32768,
-		"iS": 1472709,
-		"oA": 0,
-		"oAP": "/deploy/img/section-3/Surfing.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/Looking.png": {
-		"ft": 32768,
-		"iS": 244427,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/Looking.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/Sitting.png": {
-		"ft": 32768,
-		"iS": 624701,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/Sitting.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-4/Sunset.png": {
-		"ft": 32768,
-		"iS": 289265,
-		"oA": 0,
-		"oAP": "/deploy/img/section-4/Sunset.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/section-5/Hang-Ten.png": {
-		"ft": 32768,
-		"iS": 132783,
-		"oA": 0,
-		"oAP": "/deploy/img/section-5/Hang-Ten.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/index.html": {
+	"/footer.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
+		"oA": 1,
+		"oAP": "/footer.html",
 		"oF": 0
 		},
-	"/deploy/js/scripts-min.js": {
+	"/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/js/scripts.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min.js",
+		"oAP": "/js/scripts-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/structure-tags.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/design/structure-tags.sketch",
-		"oF": 0
-		},
-	"/dev/footer.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/footer.html",
-		"oF": 0
-		},
-	"/dev/index.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
-		},
-	"/dev/js/scripts.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/scss/base/_base.scss": {
+	"/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -199,12 +44,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
+		"oAP": "/scss/base/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_normalize.scss": {
+	"/scss/base/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -212,12 +57,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
+		"oAP": "/scss/base/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_typography.scss": {
+	"/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -225,12 +70,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
+		"oAP": "/scss/base/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_buttons.scss": {
+	"/scss/components/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -238,12 +83,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
+		"oAP": "/scss/components/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_forms.scss": {
+	"/scss/components/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -251,12 +96,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
+		"oAP": "/scss/components/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/components/_navigation.scss": {
+	"/scss/components/_navigation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -264,12 +109,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
+		"oAP": "/scss/components/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_mixins.scss": {
+	"/scss/helpers/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -277,12 +122,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
+		"oAP": "/scss/helpers/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/helpers/_variables.scss": {
+	"/scss/helpers/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -290,12 +135,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
+		"oAP": "/scss/helpers/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_footer.scss": {
+	"/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -303,12 +148,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
+		"oAP": "/scss/layout/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/layout/_header.scss": {
+	"/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -316,25 +161,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
+		"oAP": "/scss/layout/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_section-1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/styles.scss": {
+	"/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -342,49 +174,49 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
+		"oAP": "/scss/styles.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/section-1.kit": {
+	"/section-1.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-1.html",
+		"oAP": "/section-1.html",
 		"oF": 0
 		},
-	"/dev/section-2.kit": {
+	"/section-2.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-2.html",
+		"oAP": "/section-2.html",
 		"oF": 0
 		},
-	"/dev/section-3.kit": {
+	"/section-3.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-3.html",
+		"oAP": "/section-3.html",
 		"oF": 0
 		},
-	"/dev/section-4.kit": {
+	"/section-4.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-4.html",
+		"oAP": "/section-4.html",
 		"oF": 0
 		},
-	"/dev/section-5.kit": {
+	"/section-5.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/section-5.html",
+		"oAP": "/section-5.html",
 		"oF": 0
 		}
 	},
@@ -393,10 +225,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 609105848.93483496,
-	"displayValue": "Web-2-Inclass",
+	"creationDate": 609136120.549824,
+	"displayValue": "dev",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-brick",
+	"iconImageName": "brackets_purple",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
