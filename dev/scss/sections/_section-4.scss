@@ -1,8 +1,26 @@
 /* =============
-    Section 4
+  section-4
 ============= */
+ 
 #section-4{
-    img{
-        width: 100%;
+ 
+
+    li{
+        img{
+           width: 100%;
+       }
+       
+    display: grid;
+    grid-template-areas: ". section-4 .";
+   
+    ul{
+       grid-area: section-4;
+       display: grid;
+       gap: 20px;
+   
+    
+   
+       }
     }
-}
+  }
+  

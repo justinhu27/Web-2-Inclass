@@ -366,7 +366,7 @@ textarea {
     grid-area: section-1; }
 
 /* =============
-    Section 2
+  section-2
 ============= */
 #section-2 aside img {
   width: 100%; }
@@ -392,11 +392,27 @@ textarea {
     grid-area: section-3; }
 
 /* =============
-    Section 4
+  section-4
 ============= */
-#section-4 img {
-  width: 100%; }
+#section-4 li {
+  display: grid;
+  grid-template-areas: ". section-4 ."; }
+  #section-4 li img {
+    width: 100%; }
+  #section-4 li ul {
+    grid-area: section-4;
+    display: grid;
+    gap: 20px; }
 
 /* =============
     Section 5
 ============= */
+#section-5 aside img {
+  width: 100%; }
+
+#section-5 #section-5-container {
+  display: grid;
+  grid-template-columns: 15px auto 15px;
+  grid-template-areas: ". section-5 ."; }
+  #section-5 #section-5-container #section-5-content {
+    grid-area: section-5; }
