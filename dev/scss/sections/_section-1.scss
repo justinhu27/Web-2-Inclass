@@ -1,21 +1,26 @@
 /* =============
-    Section 1
+   Section-1
 ============= */
+ 
 #section-1{
-   
     img{
         width: 100%;
     }
-
-    #section-1-container{
-        display: grid;
-        grid-template-columns: 15px auto 15px;
-        grid-template-areas: ". section-1 .";
-
-        #section-1-content{
-            grid-area: section-1;
-    
-     
-        }
-    }
-}
+    //    background-image: url('.section-1/Surfboards.png');
+    //    background-size: cover;
+    //    background-position: center;
+    //    height: 371px;
+  
+    //    @include md{
+    //        height: 471px;
+    //    }
+  
+    //    @include lg{
+    //     height: 671px;
+    // }
+  
+    // @include xl{
+    //     height: 871px;
+    // }
+ }
+ 

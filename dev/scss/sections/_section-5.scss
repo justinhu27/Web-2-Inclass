@@ -1,21 +1,58 @@
 /* =============
-    Section 5
+   Section-5
 ============= */
-
+ 
 #section-5{
+   display: grid;
+   grid-template-columns: 15px auto 15px;
+   grid-template-areas: ". section-5 .";
+ 
+   @include md{
+       grid-template-columns: 15% auto 15%;
+   }
+ 
+   @include lg{
+       grid-template-columns: 15px auto 50px;
+       grid-template-areas: ". section-5 .";
+   }
   
-    aside{
-       img{
-          width: 100%;
-       }
-    }
-      #section-5-container{
-         display: grid;
-         grid-template-columns: 15px auto 15px;
-         grid-template-areas: ". section-5 .";
-          #section-5-content{
-            grid-area: section-5;
-         }
+ 
+#section-5-content{
+   grid-area: section-5;
+   text-align: justify;
+   img{
+       width: 100%;
    }
+ 
+ 
+   @include lg{
+       display: grid;
+       grid-template-columns: 50% auto;
+       grid-template-areas:
+       "img ."
+       "img text"
+       "img .";
    }
+}
+ 
+#section-5-img {
+ 
+   @include md{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+   }
+ 
+   @include lg{
+       grid-area: img;
+   }
+ }
+ 
+ #section-5-text{
+     grid-area: text;
+ }
+ 
+}
+
   
