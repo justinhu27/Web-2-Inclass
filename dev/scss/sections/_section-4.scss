@@ -3,99 +3,42 @@
 ============= */
  
 #section-4{
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". section-4 .";
+    text-align: center;
+    margin: 50px 0 50px;
+  
+    @include md{
+        grid-template-columns: 10% auto 10%;
+    }
+  
+    #section-4-content{
+        grid-area: section-4;
+  
+  
+        h1{
+            font-size: rem-calc(26);
+            line-height: rem-calc(32);
+  
+            @include md{
+                font-size: rem-calc(35);
+                line-height: rem-calc(50);
+            }
+  
+            @include lg{
+                font-size: rem-calc(52);
+                line-height: rem-calc(62);
+            }
+        }
+  
+        hr{
+            height: 4px;
+            background-color: $yellow;
+            border: none;
+        }
+    }
+  
+ }
  
-   grid-area: section-4;
- 
-   ul{
-       grid-area: section-4;
-       display: grid;
-       grid-gap:20px;
- 
-       @include lg{
-           grid-template-columns: 15px auto 15px;
-           grid-template-areas: ". section-4 ,";
-       }
- 
-       @include md{
-           grid-template-columns: 50% 50%;
-           grid-template-areas:
-           "g1 g1"
-           "g1 g1"
-           "g2 g3";
-       }
- 
-       @include lg{
-           grid-template-columns: 60% auto;
-           // grid-template-rows: 20vh 20vh;
-           grid-template-areas:
-           "g1 g2"
-           "g1 g3";
-       }
- 
-       li{
-           img{
-               width: 100%;
-           }
-       }
- 
-       #g1{
-           @include md{
-               grid-area: g1;
- 
-               // img{
-               //     width: 97.5%;
-               // }
-           }
- 
-           @include lg{
-               // height: 711px;
-               //  img{
-               //      object-fit: contain;
-               //  };
-           }
-       }
- 
-       #g2{
-           @include md{
-               grid-area: g2;
- 
-               // img{
-               //     width: 95%;
-               // }
-           }
- 
-           // @include lg{
-           //     // height: 340px;
-           // img{
-           //     object-fit: contain;
-           // };
-           // }
-       }
- 
-       #g3{
-           @include md{
-               grid-area: g3;
- 
-               // img{
-               //     width: 95%;
-               // }
-           }
- 
-           // @include lg{
-           //     // height: 340px;
-           //     img{
-           //         object-fit: contain;
-           //     };
-           // }
-       }
-   }
- 
-   @include xl{
-       grid-template-columns: auto 1200px auto;
-   }
- 
-   @include md{
-       grid-template-columns: auto 768px auto;
-   }
-}
   

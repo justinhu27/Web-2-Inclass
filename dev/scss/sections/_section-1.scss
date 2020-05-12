@@ -3,24 +3,22 @@
 ============= */
  
 #section-1{
-    img{
-        width: 100%;
-    }
-    //    background-image: url('.section-1/Surfboards.png');
-    //    background-size: cover;
-    //    background-position: center;
-    //    height: 371px;
+    background-image: url('../img/section-1/Surfboards.png');
+       background-size: cover;
+       background-position: center;
+       height: 371px;
   
-    //    @include md{
-    //        height: 471px;
-    //    }
+       @include md{
+           height: 476px;
+       }
   
-    //    @include lg{
-    //     height: 671px;
-    // }
+       @include lg{
+            height: 768px;
+        }
   
-    // @include xl{
-    //     height: 871px;
-    // }
+        @include xl{
+            height: 871px;
+         }
  }
+ 
  

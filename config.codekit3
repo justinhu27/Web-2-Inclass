@@ -19,26 +19,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/footer/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/deploy/img/footer/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/deploy/img/footer/Logo.png": {
 		"ft": 32768,
 		"iS": 4837,
@@ -49,16 +29,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/deploy/img/footer/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/deploy/img/footer/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/deploy/img/section-1/Surfboards.png": {
 		"ft": 32768,
@@ -93,44 +63,44 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-4/Looking.png": {
+	"/deploy/img/section-5/Looking.png": {
 		"ft": 32768,
 		"iS": 244427,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/Looking.png",
+		"oAP": "/deploy/img/section-5/Looking.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-4/Sitting.png": {
+	"/deploy/img/section-5/Sitting.png": {
 		"ft": 32768,
 		"iS": 624701,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/Sitting.png",
+		"oAP": "/deploy/img/section-5/Sitting.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-4/Sunset.png": {
+	"/deploy/img/section-5/Sunset.png": {
 		"ft": 32768,
 		"iS": 289265,
 		"oA": 0,
-		"oAP": "/deploy/img/section-4/Sunset.png",
+		"oAP": "/deploy/img/section-5/Sunset.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/section-5/Hang-Ten.png": {
+	"/deploy/img/section-6/Hang-Ten.png": {
 		"ft": 32768,
 		"iS": 132783,
 		"oA": 0,
-		"oAP": "/deploy/img/section-5/Hang-Ten.png",
+		"oAP": "/deploy/img/section-6/Hang-Ten.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -386,6 +356,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -438,6 +421,14 @@
 		"oA": 1,
 		"oAP": "/dev/section-5.html",
 		"oF": 0
+		},
+	"/dev/section-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/deploy/section-6.html",
+		"oF": 3
 		}
 	},
 "hooks": [
