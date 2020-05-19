@@ -2,23 +2,24 @@
    Section-1
 ============= */
  
-#section-1{
-    background-image: url('../img/section-1/Surfboards.png');
-       background-size: cover;
-       background-position: center;
-       height: 371px;
+#section-1 {
+    background-image: url('../img/section-1/Surfboards1.png');
+    background-size: cover;
+    background-position: center;
+    height: 371px;
   
-       @include md{
-           height: 476px;
-       }
+    @include md {
+        height: 476px;
+    }
   
-       @include lg{
-            height: 768px;
-        }
+    @include lg {
+        height: 768px;
+    }
   
-        @include xl{
-            height: 871px;
-         }
+    @include xl {
+        height: 871px;
+    }
  }
+ 
  
  

@@ -2,37 +2,37 @@
    Section-4
 ============= */
  
-#section-4{
+#section-4 {
     display: grid;
     grid-template-columns: 15px auto 15px;
     grid-template-areas: ". section-4 .";
     text-align: center;
     margin: 50px 0 50px;
   
-    @include md{
+    @include md {
         grid-template-columns: 10% auto 10%;
     }
   
-    #section-4-content{
+    #section-4-content {
         grid-area: section-4;
   
   
-        h1{
+        h1 {
             font-size: rem-calc(26);
             line-height: rem-calc(32);
   
-            @include md{
+            @include md {
                 font-size: rem-calc(35);
                 line-height: rem-calc(50);
             }
   
-            @include lg{
+            @include lg {
                 font-size: rem-calc(52);
                 line-height: rem-calc(62);
             }
         }
   
-        hr{
+        hr {
             height: 4px;
             background-color: $yellow;
             border: none;
@@ -40,5 +40,6 @@
     }
   
  }
+ 
  
   

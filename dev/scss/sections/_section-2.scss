@@ -2,93 +2,96 @@
    Section-2
 ============= */
  
-#section-2{
+#section-2 {
  
     margin-top: 60px;
     margin-bottom: 30px;
   
-    @include xl{
+    @include xl {
         display: grid;
         grid-template-columns: auto 1200px auto;
         grid-template-areas: ". section-2-big .";
     }
   
-        #section-2-big{
-            @include xl{
-                grid-area: section-2-big;
-         }
+    #section-2-big {
+        @include xl {
+            grid-area: section-2-big;
+        }
   
-         @include md{
+        @include md {
             display: grid;
             grid-template-columns: 35% auto;
             grid-template-areas:
-            "section-2-img ."
-            "section-2-img section-2-container"
-            "section-2-img .";
+                "section-2-img ."
+                "section-2-img section-2-container"
+                "section-2-img .";
             margin: 50px 0 50px;
         }
-   
-        @include lg{
-                grid-template-columns: 50% auto;
-                padding: 12px;
-                margin: 48px 0 48px 0;
-           
+  
+        @include lg {
+            grid-template-columns: 50% auto;
+            padding: 12px;
+            margin: 48px 0 48px 0;
+  
         }
   
-                #section-2-img{
-                    img{
-                        width: 100%;
-                    };
+        #section-2-img {
+            img {
+                width: 100%;
+            }
   
-                    @include md{
-                        grid-area: section-2-img;
-                    }
+            ;
+  
+            @include md {
+                grid-area: section-2-img;
+            }
+        }
+  
+        #section-2-container {
+            display: grid;
+            grid-template-columns: 15px auto 15px;
+            grid-template-areas: ". section-2-content .";
+  
+            @include md {
+                grid-area: section-2-container;
+            }
+        }
+  
+        #section-2-content {
+            grid-area: section-2-content;
+            margin-bottom: 60px;
+            text-align: center;
+  
+            @include md {
+                text-align: left;
+            }
+  
+            h1 {
+                font-size: rem-calc(25);
+                line-height: rem-calc(28);
+  
+                @include md {
+                    font-size: rem-calc(35);
+                    line-height: rem-calc(35);
                 }
+            }
   
-                #section-2-container{
-                    display: grid;
-                    grid-template-columns: 15px auto 15px;
-                    grid-template-areas: ". section-2-content .";
+            h3 {
+                font-size: rem-calc(16);
+                line-height: rem-calc(25);
+            }
   
-                    @include md{
-                        grid-area: section-2-container;
-                    }
-                }
+            @include md {
+                margin-bottom: 0;
+            }
   
-                #section-2-content{
-                    grid-area: section-2-content;
-                    margin-bottom: 60px;
-                    text-align: center;
-  
-                    @include md{
-                        text-align: left;
-                    }
-  
-                    h1{
-                        font-size: rem-calc(25);
-                        line-height: rem-calc(28);
-  
-                        @include md{
-                            font-size: rem-calc(35);
-                            line-height: rem-calc(35);
-                        }
-                    }
-  
-                    h3{
-                        font-size: rem-calc(16);
-                        line-height: rem-calc(25);
-                    }
-  
-                    @include md{
-                        margin-bottom: 0;
-                    }
-  
-                    hr{
-                        height: 4px;
-                        background-color: $pink;
-                        border: none;
-                    }
-                }
-         }
+            hr {
+                height: 4px;
+                background-color: $pink;
+                border: none;
+            }
+        }
+    }
  }
+ 
  

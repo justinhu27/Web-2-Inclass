@@ -2,68 +2,69 @@
    Section-5
 ============= */
  
-#section-5{
+#section-5 {
  
-    @include lg{
+    @include lg {
         display: grid;
         grid-template-areas: ". section-5 .";
         grid-template-columns: 15px auto 15px;
     }
   
-    @include xl{
+    @include xl {
         grid-template-columns: auto 1200px auto;
     }
   
-    ul{
+    ul {
         grid-area: section-5;
         display: grid;
         grid-template-rows: repeat(3, 290px);
-        grid-gap:20px;
+        grid-gap: 20px;
         grid-template-areas:
-        "g1"
-        "g2"
-        "g3";
+            "g1"
+            "g2"
+            "g3";
   
   
-        @include md{
+        @include md {
             grid-template-columns: 50% 50%;
             grid-template-rows: repeat(3, 340px);
             grid-template-areas:
-            "g1 g1"
-            "g1 g1"
-            "g2 g3";
+                "g1 g1"
+                "g1 g1"
+                "g2 g3";
         }
   
-        @include lg{
+        @include lg {
             grid-template-columns: 60% auto;
             grid-template-rows: repeat(2, 340px);
             grid-template-areas:
-            "g1 g2"
-            "g1 g3";
+                "g1 g2"
+                "g1 g3";
         }
   
-        li{
+        li {
             background-size: cover;
             background-position: center;
         }
   
-        #g1{
-                grid-area: g1;
-                background-image: url("../img/section-5/Sitting.png");
+        #g1 {
+            grid-area: g1;
+            background-image: url("../img/section-5/Sitting.png");
         }
   
-        #g2{
-                grid-area: g2;
-                background-image: url("../img/section-5/Looking.png");
+        #g2 {
+            grid-area: g2;
+            background-image: url("../img/section-5/Looking.png");
   
         }
   
-        #g3{
-                grid-area: g3;
-                background-image: url("../img/section-5/Sunset.png");
+        #g3 {
+            grid-area: g3;
+            background-image: url("../img/section-5/Sunset.png");
         }
     }
  }
+ 
  
 
   

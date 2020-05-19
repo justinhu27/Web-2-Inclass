@@ -41,6 +41,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section-1/Surfboards2.png": {
+		"ft": 32768,
+		"iS": 649667,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/Surfboards2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-2/Surfer-Girl.png": {
 		"ft": 32768,
 		"iS": 618329,
@@ -141,6 +152,14 @@
 		"oA": 1,
 		"oAP": "/dev/footer.html",
 		"oF": 0
+		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/deploy/header.html",
+		"oF": 3
 		},
 	"/dev/index.kit": {
 		"cB": 0,

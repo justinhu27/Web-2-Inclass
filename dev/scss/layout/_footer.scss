@@ -1,3 +1,38 @@
 /* =============
-    Footer
+   Footer
 ============= */
+ 
+footer{
+    display: grid;
+    grid-template-columns: 15px auto 15px;
+    grid-template-areas: ". footer .";
+    background-color: $blue;
+    width: 100%;
+    height: 60px;
+  
+    #footer-content{
+        grid-area: footer;
+        display: grid;
+        grid-template-columns: 42% 16% 33% 10%;
+        grid-template-areas: ". img . text";
+        position: relative;
+  
+        #footer-image{
+            background-image: url('../img/footer/Logo.png');
+            background-position: 50% 50% ;
+            background-repeat: no-repeat;
+            grid-area: img;
+        }
+  
+          #footer-text{
+              grid-area: text;
+              color: black;
+              font-size: rem-calc(13);
+              text-align: right;
+              position: absolute;
+              bottom: 0;
+              right: 0;
+        }
+    }
+ }
+ 

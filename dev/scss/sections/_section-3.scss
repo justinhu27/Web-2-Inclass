@@ -2,21 +2,22 @@
    Section-3
 ============= */
  
-#section-3{
+#section-3 {
     background-image: url('../img/section-3/Surfing.png');
-   background-size: cover;
-   background-position: center;
-   height: 521px;
-
-   @include md{
-       height: 522px;
-   }
-
-   @include lg{
+    background-size: cover;
+    background-position: center;
+    height: 521px;
+  
+    @include md {
+        height: 522px;
+    }
+  
+    @include lg {
         height: 695px;
     }
-
-    @include xl{
+  
+    @include xl {
         height: 795px;
-     }
-}
+    }
+ }
+ 
