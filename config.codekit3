@@ -41,6 +41,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/section-1/Surfboards1.png": {
+		"ft": 32768,
+		"iS": 639333,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/Surfboards1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-1/Surfboards2.png": {
 		"ft": 32768,
 		"iS": 649667,
@@ -137,12 +148,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/design/structure-tags.sketch": {
+	"/design/Template Change.Sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/design/structure-tags.sketch",
+		"oAP": "/design/Template Change.Sketch",
 		"oF": 0
 		},
 	"/dev/footer.kit": {
